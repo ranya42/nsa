@@ -1,0 +1,13 @@
+#!/bin/sh
+echo "Enter Size:"
+read s
+i=0
+echo "Entert two Numbers"
+for((i=0;i<=s;i++))
+do
+  read num
+sum=$((sum + num))
+done
+
+
+echo $sum
